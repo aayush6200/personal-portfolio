@@ -1,0 +1,49 @@
+.sendmail-form {
+  background-color: steelblue;
+  width: 80%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 1.5rem;
+  gap: 1rem;
+  border: 1px solid transparent;
+  border-radius: 7px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  margin: auto;
+}
+.input {
+  border: 0.5px solid white !important;
+  border-radius: 5px;
+}
+.input.name,
+.input.email {
+  width: 75%;
+  margin: auto;
+}
+.input.message {
+  height: 5rem;
+  margin: auto;
+  width: 90%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  resize: none;
+}
+
+.form.button {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.btn {
+  width: 7rem;
+  background-color: blue;
+}

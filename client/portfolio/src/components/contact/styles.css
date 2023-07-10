@@ -1,0 +1,12 @@
+.contact-info {
+  background-color: white;
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin: auto;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  border-radius: 9px;
+  justify-content: space-around;
+}
